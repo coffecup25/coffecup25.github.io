@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: white;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Courier New', Courier, monospace;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+} 
+
+a,u{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: rgb(214, 174, 74);
+}
+
+
+.container{
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 10px;
+  
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-image: url(HemsidaBakgrund.png);
+    
+}
+ 
+h1,h2,h3,h4{
+  margin-bottom: 20px;
+  color: white;
+}
+
+h2{
+  font-size: 16px;
+}
+
+.human{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 120px;
+  height: auto;
+}
+
+.brand{
+  margin:0 auto;
+  margin-bottom: 100px;
+}
+
+.brandIcon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 20%;
+  height: auto;
+}
+
+
+
+.hero{
+  margin-top: 80px;
+}
+
+
+
+.mainlinks h2{
+  margin-bottom: 10px;
+}
+
+.mainlinks{
+  text-align: left;
+ margin-left:49%;
+ margin-right: 0;
+ height: auto;
+}
+
+.social a{
+  
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  margin-left: 4px;
+  opacity: 0.25;
+  background: url(social-sprites-b66a79734825139db2f265f11219d206.png);
+  background-size: 15px 55px;
+  padding: 0;
+}
+
+.social a:hover{
+  opacity: .75;
+}
+.social #instagram{
+  background-position: 0px -20px;
+}
+
+.social #apple{
+  background-position: 0px -40px;
+}
+
+#time{
+  font-size: 10px
+}
+
