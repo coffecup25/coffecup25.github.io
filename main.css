@@ -17,7 +17,8 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  color: white;
+  text-decoration: none;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -34,6 +35,7 @@ ol, ul {
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -48,42 +50,40 @@ table {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-} 
+}
+.home a,u{
 
-a,u{
   text-decoration: none;
   color: white;
 }
-
-a:hover{
+.home .mainlinks a:hover{
   color: rgb(214, 174, 74);
 }
-
+.wrapper{
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px
+}
 
 .container{
-  margin: 0 auto;
-  width: 50%;
-  margin-bottom: 10px;
-  
-  text-align: center;
   padding: 5px;
+  margin-bottom: 70px;
+  margin-top: 60px;
+  text-align: center;
 }
-
-
-
-body{
+.home{
+  size: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-size: cover;
-    background-image: url(images/HemsidaBakgrund.png);
-    
-}
- 
-h1,h2,h3,h4{
-  margin-bottom: 20px;
-  color: white;
+    background-position: center 0;
+    background-image: url(HemsidaBakgrund.png);
+    color: white;
+
 }
 
-h2{
+.home h2{
   font-size: 16px;
 }
 
@@ -97,41 +97,35 @@ h2{
   height: auto;
 }
 
-.brand{
-  margin:0 auto;
-  margin-bottom: 100px;
-}
 
-.brandIcon{
+#brandIcon{
+  padding: 4px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  width: 20%;
+  width: 250px;
   height: auto;
+  padding: 8px;
 }
 
-
-
-.hero{
-  margin-top: 80px;
+.brand a:focus{
+  color: rgb(214, 174, 74);
 }
 
-
-
-.mainlinks h2{
-  margin-bottom: 10px;
+.mainlinks li{
+  margin-bottom: 20px;
 }
 
 .mainlinks{
   text-align: left;
- margin-left:49%;
+ margin-left:50%;
  margin-right: 0;
  height: auto;
 }
 
 .social a{
-  
+
   display: inline-block;
   vertical-align: top;
   margin: 0 auto;
@@ -140,7 +134,7 @@ h2{
   margin-right: 4px;
   margin-left: 4px;
   opacity: 0.25;
-  background: url(images/social-sprites-b66a79734825139db2f265f11219d206.png);
+  background: url(social-sprites-b66a79734825139db2f265f11219d206.png);
   background-size: 15px 55px;
   padding: 0;
 }
@@ -157,6 +151,44 @@ h2{
 }
 
 #time{
-  font-size: 10px
+  font-size: 10px;
 }
+
+.collection{
+  background-size: cover;
+  background-image: url(Timgad_L%u2019Arc_de_Triomphe_De_Trajan_3.jpg);
+}
+.collection header{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.collection li{
+  display: inline-block;
+}
+.collection a,u{
+ 
+  color: white;
+}
+
+.collection .mainlinks{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.product-list{
+  margin: 0 auto;
+  width: 1110px;
+ margin-right: 200px;
+ margin-left: 200px;
+}
+
+.product{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 170px;
+  height: auto;
+}
+
 
