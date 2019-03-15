@@ -168,7 +168,7 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(Timgad_de_Triomphe_De_Trajan_3_low_res.jpg);
-  padding-top: 1%;
+  padding-top: 3px;
   margin-bottom: 25px;
   height: 90vh;
   
@@ -192,17 +192,19 @@ table {
 }
 
 .product-list{
-  padding-top: 100px;
-  margin: 0 auto; 
-  width: 90%;
+  margin: 10px auto;
+  margin-top: 100px;
+  
   /* margin-right: 200px;
   margin-left:auto; */
 }
 
 .product-list ul li{
   display: inline-block;
-  width: 25%
+  width: 25%;
+  
 }
+
 
 .product img{
   width: 100%;
@@ -211,9 +213,11 @@ table {
 
 
 .product-list-container{ 
+ margin: 10px auto;
  text-align: center;
  margin: 20px;
  margin-top: 50px;
+ height: 100vh;
 }
 
 .product-list-container h2{
@@ -221,8 +225,8 @@ table {
 }
 
 .product{
-  max-width: 100%;
-  display: inline-block;
+
+  display: block;
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 5px;
