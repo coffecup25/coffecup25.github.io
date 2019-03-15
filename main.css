@@ -201,8 +201,8 @@ table {
 
 .product-list ul li{
   display: inline-block;
+  margin-right: 10px;
   width: 25%;
-  
 }
 
 
@@ -217,7 +217,7 @@ table {
  text-align: center;
  margin: 20px;
  margin-top: 50px;
- height: 100vh;
+
 }
 
 .product-list-container h2{
@@ -227,8 +227,6 @@ table {
 .product{
 
   display: block;
-  margin-right: 10px;
-  margin-bottom: 10px;
   padding: 5px;
   position: relative;
 }
