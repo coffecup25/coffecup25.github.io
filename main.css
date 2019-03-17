@@ -228,4 +228,10 @@ table {
   padding: 5px;
   position: relative;
 }
+
+.u-prevent-jump {
+  transition: min-height 1000s steps(1);
+}
+
+
  
