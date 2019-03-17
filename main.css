@@ -170,7 +170,7 @@ table {
   background-size: cover;
   background-image: url(Timgad_de_Triomphe_De_Trajan_3_low_res.jpg);
   padding-top: 3px;
-  height: 90vh;
+  min-height: 90vh;
   width: 100%;
   margin-bottom: 4vh;
   text-align: center;
