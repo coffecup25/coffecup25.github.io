@@ -1,3 +1,5 @@
+/* font constatin something */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -126,9 +128,7 @@ table {
 }
 
 .mainlinks{
-  text-align: left;
- margin-left:50%;
- margin-right: 0;
+ text-align: center;
  height: auto;
 }
 
@@ -163,18 +163,29 @@ table {
 }
 
 
+.logo{
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.collection{
+  min-height: 100vh;
+
+}
+
 .collection header{
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(Timgad_de_Triomphe_De_Trajan_3_low_res.jpg);
-  padding-top: 3px;
-
   height: 90vh;
   width: 100%;
   margin-bottom: 4vh;
   text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3%;
 }
 .collection li{
   display: inline-block;
@@ -189,6 +200,7 @@ table {
   margin-right: 20%;
   text-align: center;
 }
+
 .collection nav a:hover{
   color:  rgb(214, 174, 74);
 }
@@ -234,5 +246,18 @@ table {
   transition: min-height 1000s steps(1);
 }
 
+.article{
+  width: 30%;
+  min-width: 200px;
+  padding: 10px;
+}
 
+.article img{
+  width: 100%;
+}
+
+.left-article{
+  margin-left: 70%;
+
+}
  
